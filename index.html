@@ -1,6 +1,6 @@
 <style>
   .fade-in {
-  animation: fadeIn ease 10s;
+  @keyframes animation: fadeIn ease 10s;
   -webkit-animation: fadeIn ease 10s;
   -moz-animation: fadeIn ease 10s;
   -o-animation: fadeIn ease 10s;
@@ -8,17 +8,13 @@
 }
 @keyframes fadeIn {
   0% {
-    opacity:0;
+    opacity: 0;
   }
   100% {
-    opacity:1;
+    opacity: 1;
   }
-}
-  
+  }
 </style>
-
-
-
 <body bgcolor="black" text="gray">
   <center>
     <h1>censorclick</h1>
